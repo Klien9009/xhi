@@ -1,0 +1,56 @@
+header div:hover{
+  color: white;
+  cursor:pointer;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.7);
+
+}
+
+
+
+
+header {
+  width: calc(100vw - 850px);
+  height: 40px;
+   color: rgba(231, 231, 231, 0.918);
+  background-color: rgba(0, 0, 0, 0.863);
+  display: grid;
+  column-gap: 15px;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+  position: fixed;
+  top: 10;
+  left: 200px;
+  box-sizing: border-box; 
+  z-index: 1000;
+  margin-left: 325px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.384);
+  backdrop-filter:blur(6px);
+}
+
+
+
+
+header div{
+  display: flex;
+  align-items:center ;
+  font-weight: 700;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 30px;
+  
+
+}
+
+
+
+.picp{
+  margin-left: 1270px;
+  border-radius: 50px;
+  margin-top: 10px;
+  width: 45px;
+  height:45px;
+  
+}
+
+
+
